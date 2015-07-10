@@ -2100,7 +2100,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/foto1.jpg");  /* AQUI SE CAMBIA LA IMAGEN PARA EL HEADER, IMAGEN DEL PRINCIPIO, original es header.jpg*/
+		background-image: url("../../images/foto3.jpg");  /* AQUI SE CAMBIA LA IMAGEN PARA EL HEADER, IMAGEN DEL PRINCIPIO, original es header.jpg*/
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
