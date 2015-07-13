@@ -5,7 +5,7 @@ $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $mensaje = $_POST['mensaje'];
 $para = 'consultic9@gmail.com';
-$titulo = 'Cliente';
+$titulo = 'Mensaje enviado desde contáctanos en consultic.bravoutd.com';
 $header = 'From: ' . $email;
 $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
   
@@ -16,7 +16,7 @@ alert('Mensaje enviado, responderemos a la brevedad...Gracias!.');
 window.location.href = 'http://google.com';
 </script>";
 } else {
-echo 'Falló el envio, intenta de nuevo.';
+echo 'Falló el envio, intenta de nuevo porfavor.';
 }
 }
 
