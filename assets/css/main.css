@@ -7,8 +7,47 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Tablas Agregadas por consultic */
+/* Formulario contáctanos*/
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:425px;
+    color: #666666;
+    font-family:Arial;
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#2A0A0A;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    width:160px;
+    height:55px;
+    border:none;
+    margin-top:20px;
 
+    cursor:pointer;
+}
 
 /* Reset */
 
@@ -2100,7 +2139,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/foto1.jpg");  /* AQUI SE CAMBIA LA IMAGEN PARA EL HEADER, IMAGEN DEL PRINCIPIO, original es header.jpg*/
+		background-image: url("../../images/foto3.jpg");  /* AQUI SE CAMBIA LA IMAGEN PARA EL HEADER, IMAGEN DEL PRINCIPIO, original es header.jpg*/
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
