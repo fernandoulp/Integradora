@@ -45,6 +45,7 @@ textarea {
     height:55px;
     border:none;
     margin-top:20px;
+    margin-left: 120px;
 
     cursor:pointer;
 }
