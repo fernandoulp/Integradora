@@ -1,6 +1,4 @@
 <?php require_once('Connections/conexion.php'); ?>
-
-
 <?php
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
@@ -38,7 +36,6 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 if (!isset($_SESSION)) {
   session_start();
 }
-
 $loginFormAction = $_SERVER['PHP_SELF'];
 if (isset($_GET['accesscheck'])) {
   $_SESSION['PrevUrl'] = $_GET['accesscheck'];
@@ -97,7 +94,7 @@ if (isset($_POST['email'])) {
 <link type="text/css" rel="stylesheet" href="main.css">
 
 
-
+ 
 
 	</head>
 	<body class="no-sidebar">
@@ -200,13 +197,10 @@ if (isset($_POST['email'])) {
 										<header>
 											<h3>Contáctanos</h3>
 										</header>
-										<p>Contáctanos a través de nuestras redes sociales.</p>
+										<p>Contáctanos a través de cualquiera de nuestras redes sociales.</p>
 										<ul class="icons">
-											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-											<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://twitter.com/ConsulTIC_UTD" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="https://www.facebook.com/pages/Consultic/1683349825231228?fref=ts" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 										</ul>
 									</section>
 
