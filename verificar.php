@@ -13,26 +13,4 @@ if(isset($_POST['submit'])){
     El siguiente código puede ir en un archivo diferente, como puede ser 'filename.php'.
     */
  
-    $usr = mysql_real_escape_string($_POST['username']);
-    $pas = hash('sha256', mysql_real_escape_string($_POST['password']));
-    $sql = mysql_query("SELECT * FROM usuario
-        WHERE email='$usr' AND
-        password='$pas'
-        LIMIT 1");
-    if(mysql_num_rows($sql) == 1){
-        $row = mysql_fetch_array($sql);
-        session_start();
-        $_SESSION['username'] = $row['username'];
-        
-        $_SESSION['logged'] = TRUE;
-        header("Location: user_page.php"); // A la página a la que tenemos que ir
-        exit;
-    }else{
-        header("Location: login.html");
-        exit;
-    }
-}else{    //Si no se ha mandado nada, volvemos al index o la página del login
-    header("Location: index.php");
-    exit;
-}
-?>
+  
