@@ -112,29 +112,28 @@
 
 						</div>
 						<hr />
-						<a href="http://www.contadorvisitasgratis.com" target="_Blank" title="Visitas">contador de visitas para blog</a><br> <script type="text/javascript" src="http://counter2.bestfreecounterstat.com/private/countertab.js?c=8d8d4e7eed9bbc4c07504f9df4a4cb92"></script> 
+
+
 						<div class="row">
 							<div class="12u">
 
 								<!-- Contact -->
-									<section class="contact">
+										<section class="contact">
 										<header>
 											<h3>Contáctanos</h3>
 										</header>
-										<p>Contáctanos a través de nuestras redes sociales.</p>
+										<p>Contáctanos a través de cualquiera de nuestras redes sociales.</p>
 										<ul class="icons">
-											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-											<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://twitter.com/ConsulTIC_UTD" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="https://www.facebook.com/pages/Consultic/1683349825231228?fref=ts" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 										</ul>
 									</section>
+
 
 								<!-- Copyright -->
 									<div class="copyright">
 										<ul class="menu">
-													<li>&copy; Todos los derechos reservados.</li><li>Consul<a href="index.html">TIC</a></li>
+													<li>&copy; Todos los derechos reservados.</li><li>Consul<a href="index.html">TIC</a></li><li><a href="login.php">Administrador</a></li>
 										</ul>
 									</div>
 
