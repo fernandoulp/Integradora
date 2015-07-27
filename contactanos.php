@@ -39,7 +39,7 @@
 							<li><a href="index.html">Inicio</a></li>
 								<li><a href="portafolio.html">Portafolio</a></li>
 								<li><a href="quienes.html">Quiénes somos</a></li>
-								<li><a href="contactanos.html">Contáctanos</a></li>
+								<li><a href="contactanos.php">Contáctanos</a></li>
 							</ul>
 						</nav>
 
@@ -53,7 +53,7 @@
 							<header>
 								<h2><a href="#">Contáctanos</a></h2>
 								<p>
-									Contáctanos llenando los datos en el siguiente formulario. Déjanos tu opinión, queja, sugerencia o comentario.
+									Déjanos tu opinión, queja, sugerencia o comentario.
 								</p>
 							</header>
 							

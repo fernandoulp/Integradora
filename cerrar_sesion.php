@@ -64,7 +64,7 @@
 								<p>
 									Para iniciar sesión de nuevo da clic <u><b><a href="login.php">aquí</a></b></u>.
 								</p>
-
+								
 								
 							</header>
 							<div>
