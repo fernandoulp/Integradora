@@ -4,8 +4,20 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
 <html>
+
 	<head>
+		<!-- SCRIPT PARA CENTRAR POP UPS-->
+		 <script language="javascript" type="text/javascript">
+        function OpenPopupCenter(pageURL, title, w, h) {
+            var left = (screen.width - w) / 2;
+            var top = (screen.height - h) / 4;  // for 25% - devide by 4  |  for 33% - devide by 3
+            var targetWin = window.open(pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+        } 
+    	</script>
+
+<!-- SCRIPT PARA CENTRAR POP UPS-->
 		<title>Portafolio - ConsulTIC</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -62,7 +74,7 @@
 						<div class="row">
 							<article class="4u 12u(mobile) special">
 								<a name="abajo"></a>
-								<a href="#virtua" class="image featured"><img src="images/Virtua1.jpg" alt="" /></a>
+								<a href="#virtua" class="image featured"><img src="images/Virtua1.jpg"  /></a>
 								<header>
 									<h3><a href="#virtua">VIRTUA MX</a></h3>
 								</header>
@@ -92,7 +104,7 @@
 							</article>
 						</div>
 						<hr />
-								<a name="virtua" class="image featured"><img src="images/virtua.jpg" alt="" /></a>
+								<a name="virtua" class="image featured"><img src="images/virtua.jpg"  /></a>
 							<p>
 
                                 <h4>VIRTUA  MX </h4>
@@ -114,7 +126,11 @@
 									Horario: 9:00–18:00
 									</h5>
 									<center>
-									<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:600px;"><div id="gmap_canvas" style="height:300px;width:600px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.embed-google-map.com" id="get-map-data"></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(24.031287418804137,-104.68635447026679),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(24.031287418804137, -104.68635447026679)});infowindow = new google.maps.InfoWindow({content:"<b>Virtua</b><br/>Cobre 201-D Col. Bellavista c.p 34047<br/>34000 Durango" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> 
+
+										<!--Botón con pop up que tiene mapa de Virtua  -->
+									 <button onclick="OpenPopupCenter('mapa_virtua.html', 'TEST!?',500, 325	);">Ubicación</button>
+									 	<!--Botón con pop up que tiene mapa de Virtua  -->
+									 
 									</center>
 
 
@@ -149,7 +165,13 @@
 									Horario: Lunes a Sábado de 8:30 a 21:00 - Domingo de 9:00 a 15:00
 									</h5>
 									</br>
-									<center><img src="images/mapawallander.png" alt= width="300" height="300""" /></center>
+									<center>
+
+										<!--Botón con pop up que tiene mapa de Wallander  -->
+									 <button onclick="OpenPopupCenter('mapa_wallander.html', 'TEST!?',500, 325	);">Ubicación</button>
+									 	<!--Botón con pop up que tiene mapa de Wallander  -->
+
+									</center>
 									
 								</p>
 								<p>
@@ -190,9 +212,13 @@
 									Teléfono:01 618 814 7294
 									</h5>
 									</br>
-									<center><img src="images/mapalala.png" alt= width="300" height="300" />
+									<center>
 
 
+
+										<!--Botón con pop up que tiene mapa de LALA  -->
+									 <button onclick="OpenPopupCenter('mapa_lala.html', 'TEST!?',500, 325	);">Ubicación</button>
+									 	<!--Botón con pop up que tiene mapa de LALA  -->
 
 									</center>
 

@@ -79,6 +79,8 @@
 									 <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required/></textarea>
 
 									 <input id="submit" type="submit" name="submit" value="Enviar" />
+									
+
                                 </form>
 							    </section>
 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+      <title>Google Maps Multiple Markers</title>
+      <script src="http://maps.google.com/maps/api/js?sensor=false"
+              type="text/javascript"></script>
+    </head>
+    <body>
+      <div id="map" style="width: 500px; height: 300px;"></div>
+
+      <script type="text/javascript">
+        var locations = [
+          ['Blvd. Armando del Castillo 100 Fracc. Lomas del Parque', 24.0198257, -104.6902713, 1],
+          ['Independencia 128 Norte Centro Histórico', 24.027389, -104.6739524, 2],
+          ['Blvd. Durango 101 L-1 Fracc. Real del Mezquital', 24.0023099, -104.652036, 3],
+    
+        
+        ];
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: new google.maps.LatLng(24.031287418804137, -104.68635447026679),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+          });
+
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+              infowindow.setContent(locations[i][0]);
+              infowindow.open(map, marker);
+            }
+          })(marker, i));
+        }
+      </script>
+    </body>
+    </html>
