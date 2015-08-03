@@ -19,6 +19,7 @@
 
 
 
+
 	</head>
 	<body class="no-sidebar">
 		<div id="page-wrapper">
@@ -54,7 +55,13 @@
 								<h2><a href="#">Contáctanos</a></h2>
 								<p>
 									Déjanos tu opinión, queja, sugerencia o comentario.
+									<BR>
+
+									Todos los datos proporcionados serán tratados con total confidencialidad.
 								</p>
+								
+									
+								
 							</header>
 							
 							
@@ -70,7 +77,7 @@
 								<section class="formulario">
 								<form action="contac.php"  method="post">
 									 <label for="nombre">Nombre:</label>
-									 <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required />
+									 <input id="nombre" type="text" name="nombre" placeholder="Nombre" required />
 
 									 <label for="email">Email:</label>
 									 <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required/>
@@ -78,14 +85,13 @@
 									 <label for="mensaje">Mensaje:</label>
 									 <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required/></textarea>
 
-									 <input id="submit" type="submit" name="submit" value="Enviar" />
-									
+									 &nbsp;&nbsp;<input id="submit" type="submit" name="submit" value="Enviar" />
 
                                 </form>
 							    </section>
-
+								<header ><a href="Aviso/aviso.pdf" target="_blank">Aviso de privacidad</a></header>
 									<!-- Fin del formulario -->
-
+									
 							    </p>
 								
 								
@@ -114,20 +120,20 @@
 
 						</div>
 						<hr />
-
-
+						
 						<div class="row">
 							<div class="12u">
 
 								<!-- Contact -->
-										<section class="contact">
+									<section class="contact">
 										<header>
 											<h3>Contáctanos</h3>
 										</header>
-										<p>Contáctanos a través de cualquiera de nuestras redes sociales.</p>
+										<p>Contáctanos a través de nuestras redes sociales.</p>
 										<ul class="icons">
-									<li><a href="https://twitter.com/ConsulTIC_UTD" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="https://twitter.com/ConsulTIC_UTD" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 											<li><a href="https://www.facebook.com/pages/Consultic/1683349825231228?fref=ts" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								
 										</ul>
 									</section>
 
