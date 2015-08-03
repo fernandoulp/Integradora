@@ -57,7 +57,7 @@
 									Déjanos tu opinión, queja, sugerencia o comentario.
 									<BR>
 
-									Todos los datos proporcionados serán tratados con total confidencialidad.
+									Los datos proporcionados serán tratados con total confidencialidad.
 								</p>
 								
 									
