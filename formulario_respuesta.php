@@ -143,7 +143,7 @@ $totalRows_Recordset2 = mysql_num_rows($Recordset2);
 									 <label for="mensaje">Mensaje:</label>
 									 <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required/></textarea>
 
-									 <input id="submit" type="submit" name="submit" value="Enviar" />
+									 <input id="submit" type="submit" name="submit" value="Enviar" /> 
 									 <input type="hidden" name="MM_update" value="form2" />
   <input type="hidden" name="id" value="<?php echo $row_Recordset2['id']; ?>" />
                                 </form>
