@@ -95,6 +95,11 @@ if (isset($_POST['email'])) {
 
 
  
+<script>
+function enlaces(dir) {
+window.location.replace(dir)
+}
+</script>
 
 	</head>
 	<body class="no-sidebar">
@@ -154,7 +159,7 @@ if (isset($_POST['email'])) {
 									 <input type="password" name="password" placeholder="password" required/>
 
 
-									 <input id="submit" type="submit" name="submit" value="Aceptar" />
+									 <a href="javascript:enlaces('index.html')"><input id="submit" type="submit" name="submit" value="Aceptar" /></a>
                                 </form>
 							    </section>
 

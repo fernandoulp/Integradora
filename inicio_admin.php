@@ -71,6 +71,11 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 <link type="text/css" rel="stylesheet" href="main.css">
 
 
+<script>
+function enlaces(dir) {
+window.location.replace(dir)
+}
+</script>
 
 
 	</head>
@@ -154,20 +159,17 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 							  <?php } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1)); ?>
 							  </table>
 							  <?php echo $totalRows_Recordset1 ?> Total de mensajes
+	<script>
+  function pregunta_eliminar()
+{
+if(confirm("Desea eliminar el comentario seleccionado ?"))
+document.location.href="";
+else
+event.preventDefault();
+}
+</script>
 
-							<script>
-							  function pregunta_eliminar()
-							{
-							if(confirm("Desea realmente eliminar el mensaje seleccionado?"))
-							{
-							return true;
-							}
-							else {
 
-							return false;
-							}
-						}
-							</script>
 								</head>
 								<body>
 
@@ -220,7 +222,7 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 								<!-- Copyright -->
 									<div class="copyright">
 										<ul class="menu">
-													<li>&copy; Todos los derechos reservados.</li><li>Consul<a href="index.html">TIC</a></li><li><a href="cerrar_sesion.php">Cerrar Sesión</a></li>
+													<li>&copy; Todos los derechos reservados.</li><li>Consul<a href="index.html">TIC</a></li><li><a href="javascript:enlaces('cerrar_sesion.php')">Cerrar Sesión</a></li>
 										</ul>
 									</div>
 
